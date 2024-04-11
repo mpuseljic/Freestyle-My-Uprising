@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -20,6 +21,17 @@ public class PlayerController : MonoBehaviour
 
     } }
 
+    public bool _isFacingRight = true;
+    public bool IsFacingRight { get{
+        return _isFacingRight;
+    } private set{
+        if(_isFacingRight != value){
+            transform.localScale *= new Vector2(-1, 1);
+        }
+        _isFacingRight = value;
+
+
+    } }
 
     Rigidbody2D rb;
     Animator animator;
@@ -51,8 +63,19 @@ public class PlayerController : MonoBehaviour
 
     IsMoving = moveInput != Vector2.zero;
 
+    SetFacingDirection(moveInput);
+
 
    }
 
-   
+    private void SetFacingDirection(Vector2 moveInput)
+    {
+        if(moveInput.x > 0 && !IsFacingRight){
+            IsFacingRight = true;
+
+        }else if(moveInput.x < 0 && IsFacingRight){
+            IsFacingRight = false;
+
+        }
+    }
 }
