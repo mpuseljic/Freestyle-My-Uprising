@@ -129,7 +129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   walkSpeed: 5
   _isMoving: 0
-  _isRunning: 0
 --- !u!114 &6261364665574872811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -219,10 +218,6 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 24e25c1e-79d1-4587-8c21-5b4d8b015989
     m_ActionName: UI/TrackedDeviceOrientation
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: a899e6a4-6ef9-45dd-be6d-d5b3906c14df
-    m_ActionName: Player/Run[/Keyboard/a,/Keyboard/d]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player

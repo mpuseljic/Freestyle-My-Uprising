@@ -20,16 +20,7 @@ public class PlayerController : MonoBehaviour
 
     } }
 
-[SerializeField]
-    private bool _isRunning = false;
 
-    public bool IsRunning { get {
-        return _isRunning;
-    }
-    set{
-        _isRunning = value;
-        animator.SetBool("isRunning", value);
-    }}
     Rigidbody2D rb;
     Animator animator;
 
@@ -63,11 +54,5 @@ public class PlayerController : MonoBehaviour
 
    }
 
-   public void OnRun(InputAction.CallbackContext context){
-    if(context.started){
-        IsRunning = true;
-    }else if(context.canceled){
-        IsRunning = false;
-    }
-   }
+   
 }
