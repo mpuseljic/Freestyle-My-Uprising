@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2172820760071559678}
   - component: {fileID: 8048025723119965228}
   - component: {fileID: 6261364665574872811}
+  - component: {fileID: 7298073947950965536}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -127,6 +128,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   walkSpeed: 5
+  _isMoving: 0
+  _isRunning: 0
 --- !u!114 &6261364665574872811
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -216,8 +219,33 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 24e25c1e-79d1-4587-8c21-5b4d8b015989
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: a899e6a4-6ef9-45dd-be6d-d5b3906c14df
+    m_ActionName: Player/Run[/Keyboard/a,/Keyboard/d]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!95 &7298073947950965536
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6233821792997967891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 299803c04943f4d2292a33adc72fcbfb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
