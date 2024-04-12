@@ -11,6 +11,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Transform groundCheck;        // Transform to determine where to check for ground
     [SerializeField] private float groundCheckRadius = 0.2f;// Radius for ground check
     [SerializeField] private KeyCode heavyAttackKey = KeyCode.F; // The key to trigger the heavy attack
+    [SerializeField] private KeyCode blockKey = KeyCode.Mouse1; // The key to trigger the block animation
 
 
     private Rigidbody2D body2d;                           // Reference to the Rigidbody2D component
@@ -21,6 +22,7 @@ public class PlayerController : MonoBehaviour
     private float lastDash = -1f;                          // Time when the last dash was initiated
     private bool isHeavyAttacking = false; // Is the character performing a heavy attack?
     private bool isAttacking = false; // Indicates if the attack is in progress
+    private bool isBlocking = false;
 
 
     void Start()
@@ -44,6 +46,10 @@ public class PlayerController : MonoBehaviour
         {
             Attack();
         }
+        if (Input.GetMouseButtonDown(1)) // 1 is the right mouse button
+        {
+            Block();
+        }
         CheckGrounded();
     }
 
@@ -62,6 +68,12 @@ public class PlayerController : MonoBehaviour
 
         // Update the animator with movement information
         animator.SetFloat("Speed", Mathf.Abs(inputX));
+
+        // Determine if the character is walking (there is some input, but not running)
+        bool isWalking = Mathf.Abs(inputX) > 0 && !isRunning;
+        animator.SetBool("IsWalking", isWalking);
+
+        // Update the animator to indicate if the character is running
         animator.SetBool("IsRunning", isRunning);
 
         // Flip the character sprite direction depending on the move direction
@@ -70,6 +82,8 @@ public class PlayerController : MonoBehaviour
         else if (inputX < 0)
             GetComponent<SpriteRenderer>().flipX = true;
     }
+
+
 
     private void Jump()
     {
@@ -147,5 +161,19 @@ public class PlayerController : MonoBehaviour
     {
         isAttacking = false;
         // Additional logic to reset the attack goes here
+    }
+    private void Block()
+    {
+        if (grounded && !isBlocking && !isDashing && !isAttacking) // Ensure the player can only block when not dashing or attacking
+        {
+            isBlocking = true;
+            animator.SetTrigger("Block");
+            // Other block logic goes here (e.g., enabling block state)
+        }
+    }
+    public void ResetBlock()
+    {
+        isBlocking = false;
+        // Additional logic to reset the block goes here, if necessary
     }
 }
