@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Ladder
+  - Interactable
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - Water
   - UI
   - Ground
-  - 
-  - 
+  - Ladder
+  - groundLayer
   - 
   - 
   - 
@@ -44,6 +46,12 @@ TagManager:
     locked: 0
   - name: Foreground
     uniqueID: 3460611991
+    locked: 0
+  - name: Tilemap
+    uniqueID: 2091836859
+    locked: 0
+  - name: Decorations
+    uniqueID: 1361091045
     locked: 0
   - name: Default
     uniqueID: 0
