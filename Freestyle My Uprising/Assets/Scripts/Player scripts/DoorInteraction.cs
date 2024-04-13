@@ -1,6 +1,6 @@
 // DoorInteraction.cs
 using UnityEngine;
-using static PlayerController;
+using static Test;
 
 public class DoorInteraction : MonoBehaviour, IInteractable
 {

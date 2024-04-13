@@ -6,11 +6,8 @@ public class LadderClimbing : MonoBehaviour
     [SerializeField] private LayerMask whatIsLadder;
     [SerializeField] private bool isClimbing;
 
-    // Reference to the Rigidbody2D and Animator of the player
     private Rigidbody2D rb;
     private Animator animator;
-
-    // Variable to store vertical input
     private float verticalInput;
 
     private void Start()
@@ -21,24 +18,31 @@ public class LadderClimbing : MonoBehaviour
 
     private void Update()
     {
-        // Get the vertical input
         verticalInput = Input.GetAxisRaw("Vertical");
-        if (isClimbing && verticalInput != 0)
+
+        if (isClimbing)
         {
-            rb.velocity = new Vector2(0, verticalInput * climbSpeed);
+            animator.SetBool("IsClimbing", true);  // Set climbing animation on
+
+            if (verticalInput != 0)
+            {
+                rb.velocity = new Vector2(0, verticalInput * climbSpeed);
+            }
+            else
+            {
+                // Consider allowing some minor movements or zero out only vertical movement
+                rb.velocity = new Vector2(rb.velocity.x, 0);
+            }
         }
         else
         {
-            rb.velocity = new Vector2(rb.velocity.x, 0);
+            animator.SetBool("IsClimbing", false);  // Ensure climbing animation is off when not climbing
         }
-        // If there's vertical input and the player is in the climbing state,
-        // the player should climb up or down.
 
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the player has collided with the ladder
         if (((1 << collision.gameObject.layer) & whatIsLadder) != 0)
         {
             isClimbing = true;
@@ -47,7 +51,6 @@ public class LadderClimbing : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        // Check if the player has exited the ladder
         if (((1 << collision.gameObject.layer) & whatIsLadder) != 0)
         {
             isClimbing = false;
