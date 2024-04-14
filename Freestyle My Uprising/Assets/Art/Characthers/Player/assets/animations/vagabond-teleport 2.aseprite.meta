@@ -1,0 +1,559 @@
+fileFormatVersion: 2
+guid: 21df32a630b5baa4094e64b85d0e5b5c
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: vagabond-teleport 2_Frame_0
+    originalName: 
+    pivot: {x: 0.55, y: 0.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 104
+      y: 78
+      width: 20
+      height: 24
+    spriteID: 10c067d8f5cb3394fa4afc1a108426b7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 104, y: 78}
+  - name: vagabond-teleport 2_Frame_1
+    originalName: 
+    pivot: {x: 0.55263156, y: 0.25925925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 43
+      width: 38
+      height: 27
+    spriteID: d65d3d8345f6d844eba2d75dea0ee0e3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 43}
+  - name: vagabond-teleport 2_Frame_2
+    originalName: 
+    pivot: {x: 0.53846157, y: 0.28}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 112
+      width: 39
+      height: 25
+    spriteID: 6844f5a428ba63f438a68949801afc64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 112}
+  - name: vagabond-teleport 2_Frame_3
+    originalName: 
+    pivot: {x: 0.5641026, y: 0.4516129}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 4
+      width: 39
+      height: 31
+    spriteID: 93b2f769cd2319d48b85d26feb4879d6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 4}
+  - name: vagabond-teleport 2_Frame_4
+    originalName: 
+    pivot: {x: 0.55263156, y: 0.15}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 145
+      width: 38
+      height: 20
+    spriteID: 98fe0a9b7fb509d4eb0703ac074ce5ef
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 145}
+  - name: vagabond-teleport 2_Frame_6
+    originalName: 
+    pivot: {x: 0.625, y: -0.071428575}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 198
+      width: 32
+      height: 14
+    spriteID: 05470ef49b78b3d458e7c00b3433c74c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 198}
+  - name: vagabond-teleport 2_Frame_7
+    originalName: 
+    pivot: {x: 0.65625, y: 0.23529412}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 89
+      y: 173
+      width: 32
+      height: 17
+    spriteID: 5cfe18f49be6fd14b8e87e84694b10dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 89, y: 173}
+  - name: vagabond-teleport 2_Frame_8
+    originalName: 
+    pivot: {x: 0.47368422, y: 0.23076925}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 78
+      width: 38
+      height: 26
+    spriteID: 1c3226545580ee544bbec9a42434973f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 78}
+  - name: vagabond-teleport 2_Frame_9
+    originalName: 
+    pivot: {x: 0.58695656, y: 0.44444445}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 46
+      height: 36
+    spriteID: 2c9e438a9e3d69b40ac7229ac4683d62
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: vagabond-teleport 2_Frame_10
+    originalName: 
+    pivot: {x: 0.5263158, y: 0.16666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 154
+      width: 38
+      height: 36
+    spriteID: dc0fc7d8347e7a441951379649d6baea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 154}
+  - name: vagabond-teleport 2_Frame_11
+    originalName: 
+    pivot: {x: 0.5833333, y: 0.1627907}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 103
+      width: 36
+      height: 43
+    spriteID: ac75babd041ddad4a8b159e843fd952c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 103}
+  - name: vagabond-teleport 2_Frame_12
+    originalName: 
+    pivot: {x: 0.54545456, y: 0.12765957}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 48
+      width: 33
+      height: 47
+    spriteID: b6ca96e46de44a94daed42a51c5bb2f4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 48}
+  - name: vagabond-teleport 2_Frame_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.04255319}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 198
+      width: 26
+      height: 47
+    spriteID: 04dd772c43e20714d939b57dce045fad
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 198}
+  - name: vagabond-teleport 2_Frame_14
+    originalName: 
+    pivot: {x: 0.5217391, y: 0.030303031}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 173
+      width: 23
+      height: 33
+    spriteID: 2ba685bbab3d22a46bed4dfd22b992eb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 173}
+  - name: vagabond-teleport 2_Frame_15
+    originalName: 
+    pivot: {x: 0.5217391, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 58
+      y: 214
+      width: 23
+      height: 20
+    spriteID: 1508213c294169d44883e791ff0609a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 58, y: 214}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -2027097504
+    name: vagabond-teleport 2
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: vagabond-teleport 2_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 117
+        y: -3
+        width: 20
+        height: 24
+      spriteId: 10c067d8f5cb3394fa4afc1a108426b7
+    - name: vagabond-teleport 2_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 107
+        y: -7
+        width: 38
+        height: 27
+      spriteId: d65d3d8345f6d844eba2d75dea0ee0e3
+    - name: vagabond-teleport 2_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 107
+        y: -7
+        width: 39
+        height: 25
+      spriteId: 6844f5a428ba63f438a68949801afc64
+    - name: vagabond-teleport 2_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 106
+        y: -14
+        width: 39
+        height: 31
+      spriteId: 93b2f769cd2319d48b85d26feb4879d6
+    - name: vagabond-teleport 2_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 107
+        y: -3
+        width: 38
+        height: 20
+      spriteId: 98fe0a9b7fb509d4eb0703ac074ce5ef
+    - name: vagabond-teleport 2_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 108
+        y: 1
+        width: 32
+        height: 14
+      spriteId: 05470ef49b78b3d458e7c00b3433c74c
+    - name: vagabond-teleport 2_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 107
+        y: -4
+        width: 32
+        height: 17
+      spriteId: 5cfe18f49be6fd14b8e87e84694b10dc
+    - name: vagabond-teleport 2_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 110
+        y: -6
+        width: 38
+        height: 26
+      spriteId: 1c3226545580ee544bbec9a42434973f
+    - name: vagabond-teleport 2_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 101
+        y: -16
+        width: 46
+        height: 36
+      spriteId: 2c9e438a9e3d69b40ac7229ac4683d62
+    - name: vagabond-teleport 2_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 108
+        y: -6
+        width: 38
+        height: 36
+      spriteId: dc0fc7d8347e7a441951379649d6baea
+    - name: vagabond-teleport 2_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 107
+        y: -7
+        width: 36
+        height: 43
+      spriteId: ac75babd041ddad4a8b159e843fd952c
+    - name: vagabond-teleport 2_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 110
+        y: -6
+        width: 33
+        height: 47
+      spriteId: b6ca96e46de44a94daed42a51c5bb2f4
+    - name: vagabond-teleport 2_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 115
+        y: -2
+        width: 26
+        height: 47
+      spriteId: 04dd772c43e20714d939b57dce045fad
+    - name: vagabond-teleport 2_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 116
+        y: -1
+        width: 23
+        height: 33
+      spriteId: 2ba685bbab3d22a46bed4dfd22b992eb
+    - name: vagabond-teleport 2_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 116
+        y: 0
+        width: 23
+        height: 20
+      spriteId: 1508213c294169d44883e791ff0609a2
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 256, y: 64}

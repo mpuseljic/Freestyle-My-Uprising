@@ -20,10 +20,8 @@ public class Test : MonoBehaviour
     private bool isAttacking = false;
     private bool isJumpAttacking = false;
     private bool isClimbing = false;
-    private int jumpCount = 0;  
-    private int maxJumpCount = 2;
+    private bool isSleeping = false;
     private bool isBlocking = false;
-
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -33,6 +31,7 @@ public class Test : MonoBehaviour
     [SerializeField] private KeyCode magicAttackKey = KeyCode.R;
     [SerializeField] private KeyCode attackKey = KeyCode.Mouse0;
     [SerializeField] private KeyCode blockKey = KeyCode.Mouse1;
+    [SerializeField] private float teleportDistance = 3f; // Distance to teleport
 
     void Start()
     {
@@ -66,7 +65,7 @@ public class Test : MonoBehaviour
             StartCoroutine(Dash());
         }
 
-        if (Input.GetButtonDown("Jump") && IsGrounded() && !isClimbing) // Make sure climbing doesn't block jumping
+        if (Input.GetButtonDown("Jump") && IsGrounded() && !isClimbing) // Ensure climbing doesn't block jumping
         {
             Jump();
         }
@@ -87,52 +86,46 @@ public class Test : MonoBehaviour
         {
             EndBlock();
         }
-        if (Input.GetKeyDown(KeyCode.Mouse2))
+        if (Input.GetKeyDown(KeyCode.J) && !IsGrounded())
         {
-            Debug.Log("Middle mouse button pressed.");
-            if (!IsGrounded() && !isClimbing)
-            {
-                PerformJumpFlip();
-            }
+            PerformJumpAttack();
+        }
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            PerformTeleport();
+        }
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            ToggleSleep();
         }
     }
 
     private void HandleMovement()
     {
-        if (!isDashing)  // Only control movement if not currently dashing
-        {
-            float move = horizontal * speed;
-            bool isMoving = Mathf.Abs(move) > 0;
-            bool isRunning = isMoving && Input.GetKey(KeyCode.LeftControl);
-
-            // Apply the running multiplier if the character is running
-            if (isRunning)
-            {
-                move *= runningMultiplier;
-            }
-
-            // Update the speed in the animator to handle walking/running animations.
-            rb.velocity = new Vector2(move, rb.velocity.y);
-            animator.SetFloat("Speed", Mathf.Abs(move));
-            animator.SetBool("IsRunning", isRunning);
-            animator.SetBool("IsWalking", isMoving && !isRunning);
-
-            // Set the character's velocity based on input.
-            rb.velocity = new Vector2(move, rb.velocity.y);
-
-            // Flip the character to face the direction of movement.
-            Flip();
-            if (IsGrounded() && jumpCount != 0)
-            {
-                jumpCount = 0;
-                animator.SetBool("IsJumping", false);
-            }
-        }
-        else
+        if (isDashing)  // Skip normal movement processing while dashing
         {
             // Optionally reduce movement speed or prevent movement altogether while blocking
-            rb.velocity = new Vector2(0, rb.velocity.y);
+            return;
         }
+
+        float move = horizontal * speed;
+        bool isMoving = Mathf.Abs(move) > 0;
+        bool isRunning = isMoving && Input.GetKey(KeyCode.LeftControl);
+
+        // Apply the running multiplier if the character is running
+        if (isRunning)
+        {
+            move *= runningMultiplier;
+        }
+
+        // Update the speed in the animator to handle walking/running animations.
+        rb.velocity = new Vector2(move, rb.velocity.y);
+        animator.SetFloat("Speed", Mathf.Abs(move));
+        animator.SetBool("IsRunning", isRunning);
+        animator.SetBool("IsWalking", isMoving && !isRunning);
+
+        // Flip the character to face the direction of movement.
+        Flip();
         // Handle grounded state for jumping and falling animations.
         animator.SetBool("Grounded", IsGrounded());
     }
@@ -155,14 +148,10 @@ public class Test : MonoBehaviour
 
     private void Jump()
     {
-        if (IsGrounded() || jumpCount < maxJumpCount)
+        if (IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
-            if (jumpCount == 0)
-            {
-                animator.SetTrigger("Jump");  // Activate the Jump trigger in the Animator
-            }
-            jumpCount++;
+            animator.SetTrigger("Jump");  // Activate the Jump trigger in the Animator
         }
     }
 
@@ -281,15 +270,33 @@ public class Test : MonoBehaviour
         animator.SetBool("Block", false);
         // Reset any modified states or effects from blocking
     }
-    private void PerformJumpFlip()
+    private void PerformJumpAttack()
     {
-        Debug.Log($"Attempting to jump flip: IsGrounded = {IsGrounded()}, isClimbing = {isClimbing}, isDashing = {isDashing}, jumpCount = {jumpCount}");
-        if (!IsGrounded() && !isClimbing && !isDashing && jumpCount > 0)
-        {
-            animator.SetTrigger("JumpFlip");
-        }
+        animator.SetTrigger("JumpAttack");
     }
 
+    private void PerformTeleport()
+    {
+        // Calculate new position in front of the character
+        Vector3 teleportDirection = isFacingRight ? Vector3.right : Vector3.left;
+        Vector3 newPosition = transform.position + teleportDirection * teleportDistance;
 
+        // Trigger teleport animation (make sure to create this in your Animator)
+        animator.SetTrigger("Teleport");
+
+        // Optionally, you could wait for the animation to finish before moving the character
+        // This can be done using a Coroutine if the timing needs to be precise with the animation
+        StartCoroutine(TeleportAfterDelay(newPosition, 0.5f)); // 0.5 seconds for example
+    }
+    IEnumerator TeleportAfterDelay(Vector3 newPosition, float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        transform.position = newPosition;
+    }
+    private void ToggleSleep()
+    {
+        isSleeping = !isSleeping; // Toggle the state
+        animator.SetBool("Sleeping", isSleeping); // Tell the animator about the new state
+    }
 
 }
