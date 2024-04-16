@@ -1,0 +1,643 @@
+fileFormatVersion: 2
+guid: d3d5665a67ee9be4c945762e411edde8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: gun_attack 2_Frame_0
+    originalName: 
+    pivot: {x: 0.4615385, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 35
+      y: 154
+      width: 13
+      height: 16
+    spriteID: 5c92cef152bbc4644b2160e659b54819
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 35, y: 154}
+  - name: gun_attack 2_Frame_1
+    originalName: 
+    pivot: {x: 0.375, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 112
+      width: 16
+      height: 16
+    spriteID: bc9ceab55f6fdc1479181bfde91dc203
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 112}
+  - name: gun_attack 2_Frame_2
+    originalName: 
+    pivot: {x: 0.7222222, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 85
+      width: 18
+      height: 16
+    spriteID: b0a43c8acce51b94c8ea289187337a3e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 80, y: 85}
+  - name: gun_attack 2_Frame_3
+    originalName: 
+    pivot: {x: 0.6428572, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 4
+      width: 14
+      height: 19
+    spriteID: d5735bbf2969fa04c9bca71845f41d4f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 4}
+  - name: gun_attack 2_Frame_4
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 31
+      width: 15
+      height: 17
+    spriteID: 8857f60824ba8734ca15483a3af42853
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 31}
+  - name: gun_attack 2_Frame_5
+    originalName: 
+    pivot: {x: 0.6666667, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 109
+      y: 58
+      width: 15
+      height: 17
+    spriteID: 7a8da783ff2de7348b157ddaef7a427f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 109, y: 58}
+  - name: gun_attack 2_Frame_6
+    originalName: 
+    pivot: {x: 0.7058824, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 211
+      width: 17
+      height: 18
+    spriteID: b41b47fb93478784c8c27a56fc7ca0a8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 211}
+  - name: gun_attack 2_Frame_7
+    originalName: 
+    pivot: {x: 0.64705884, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 184
+      width: 17
+      height: 18
+    spriteID: 006154335dfc2c049888cfe1b53a78c5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 184}
+  - name: gun_attack 2_Frame_8
+    originalName: 
+    pivot: {x: 0.375, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 30
+      y: 210
+      width: 16
+      height: 19
+    spriteID: c7b81b59c5381a5458fdb1f30fe7eb7b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 30, y: 210}
+  - name: gun_attack 2_Frame_9
+    originalName: 
+    pivot: {x: 0.375, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 85
+      width: 16
+      height: 19
+    spriteID: 8516759753c2ce943b532b26ad340042
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 85}
+  - name: gun_attack 2_Frame_10
+    originalName: 
+    pivot: {x: 0.33333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 184
+      width: 18
+      height: 19
+    spriteID: 1f31fefa7a7041f43b8b28fd094f3fbf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 184}
+  - name: gun_attack 2_Frame_11
+    originalName: 
+    pivot: {x: 0.26086956, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 154
+      width: 23
+      height: 22
+    spriteID: 5571b18a50dc37549910834dcdaf75a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 154}
+  - name: gun_attack 2_Frame_12
+    originalName: 
+    pivot: {x: 0.13953489, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 118
+      width: 43
+      height: 28
+    spriteID: 41ae20930f72f7b4c9f060f41b397351
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 118}
+  - name: gun_attack 2_Frame_13
+    originalName: 
+    pivot: {x: 0.13636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 70
+      width: 44
+      height: 40
+    spriteID: bd569373ea939514e978697f7502c48f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 70}
+  - name: gun_attack 2_Frame_14
+    originalName: 
+    pivot: {x: 0.13636364, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 44
+      height: 58
+    spriteID: d49cc353cba972941b7a542fa5843ba8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: gun_attack 2_Frame_15
+    originalName: 
+    pivot: {x: 0.13333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 4
+      width: 45
+      height: 19
+    spriteID: cffb10ceab9eaef4490b3efc4bc38589
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 4}
+  - name: gun_attack 2_Frame_16
+    originalName: 
+    pivot: {x: 0.13333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 31
+      width: 45
+      height: 19
+    spriteID: d59e73b22dfe7354a965920df4607ea5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 31}
+  - name: gun_attack 2_Frame_17
+    originalName: 
+    pivot: {x: 0.13333334, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 56
+      y: 58
+      width: 45
+      height: 19
+    spriteID: c72d339f9dd98ba41bcf11cd44d30e03
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 56, y: 58}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -1697003403
+    name: gun_attack 2
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: gun_attack 2_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 58
+        y: 0
+        width: 13
+        height: 16
+      spriteId: 5c92cef152bbc4644b2160e659b54819
+    - name: gun_attack 2_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 58
+        y: 0
+        width: 16
+        height: 16
+      spriteId: bc9ceab55f6fdc1479181bfde91dc203
+    - name: gun_attack 2_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 51
+        y: 0
+        width: 18
+        height: 16
+      spriteId: b0a43c8acce51b94c8ea289187337a3e
+    - name: gun_attack 2_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 55
+        y: 0
+        width: 14
+        height: 19
+      spriteId: d5735bbf2969fa04c9bca71845f41d4f
+    - name: gun_attack 2_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 54
+        y: 0
+        width: 15
+        height: 17
+      spriteId: 8857f60824ba8734ca15483a3af42853
+    - name: gun_attack 2_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 54
+        y: 0
+        width: 15
+        height: 17
+      spriteId: 7a8da783ff2de7348b157ddaef7a427f
+    - name: gun_attack 2_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 52
+        y: 0
+        width: 17
+        height: 18
+      spriteId: b41b47fb93478784c8c27a56fc7ca0a8
+    - name: gun_attack 2_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 53
+        y: 0
+        width: 17
+        height: 18
+      spriteId: 006154335dfc2c049888cfe1b53a78c5
+    - name: gun_attack 2_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 58
+        y: 0
+        width: 16
+        height: 19
+      spriteId: c7b81b59c5381a5458fdb1f30fe7eb7b
+    - name: gun_attack 2_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 58
+        y: 0
+        width: 16
+        height: 19
+      spriteId: 8516759753c2ce943b532b26ad340042
+    - name: gun_attack 2_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 58
+        y: 0
+        width: 18
+        height: 19
+      spriteId: 1f31fefa7a7041f43b8b28fd094f3fbf
+    - name: gun_attack 2_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 58
+        y: 0
+        width: 23
+        height: 22
+      spriteId: 5571b18a50dc37549910834dcdaf75a2
+    - name: gun_attack 2_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 58
+        y: 0
+        width: 43
+        height: 28
+      spriteId: 41ae20930f72f7b4c9f060f41b397351
+    - name: gun_attack 2_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 58
+        y: 0
+        width: 44
+        height: 40
+      spriteId: bd569373ea939514e978697f7502c48f
+    - name: gun_attack 2_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 58
+        y: 0
+        width: 44
+        height: 58
+      spriteId: d49cc353cba972941b7a542fa5843ba8
+    - name: gun_attack 2_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 58
+        y: 0
+        width: 45
+        height: 19
+      spriteId: cffb10ceab9eaef4490b3efc4bc38589
+    - name: gun_attack 2_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 58
+        y: 0
+        width: 45
+        height: 19
+      spriteId: d59e73b22dfe7354a965920df4607ea5
+    - name: gun_attack 2_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 58
+        y: 0
+        width: 45
+        height: 19
+      spriteId: c72d339f9dd98ba41bcf11cd44d30e03
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 128, y: 64}
