@@ -1,0 +1,531 @@
+fileFormatVersion: 2
+guid: 42b66e4b7344fff429a04e863dc4f2f8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: vagabond-death_Frame_0
+    originalName: 
+    pivot: {x: 0.6, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 93
+      width: 10
+      height: 18
+    spriteID: 3d1745f0312757942bd681205264ade8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 93}
+  - name: vagabond-death_Frame_1
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 4
+      width: 11
+      height: 15
+    spriteID: bafb10bd4ece2f641818324a90cb19a2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 4}
+  - name: vagabond-death_Frame_2
+    originalName: 
+    pivot: {x: 0.54545456, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 27
+      width: 11
+      height: 15
+    spriteID: 51e6241fa01f2f34e9a34a0b8190fd2f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 27}
+  - name: vagabond-death_Frame_3
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 79
+      y: 50
+      width: 11
+      height: 13
+    spriteID: 4ef3ae95f3e34c44eac9d16de7387e35
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 79, y: 50}
+  - name: vagabond-death_Frame_4
+    originalName: 
+    pivot: {x: 0.45454547, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 114
+      width: 11
+      height: 10
+    spriteID: b53e5ffc39c8b864bba8e9b4840b7b0d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 114}
+  - name: vagabond-death_Frame_5
+    originalName: 
+    pivot: {x: 0.30769232, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 19
+      width: 13
+      height: 8
+    spriteID: 68b07f467f718e046b141bd951662caa
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 19}
+  - name: vagabond-death_Frame_6
+    originalName: 
+    pivot: {x: 0.11111111, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 4
+      width: 18
+      height: 7
+    spriteID: e3b86eab827f266469e30ad123746765
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 4}
+  - name: vagabond-death_Frame_7
+    originalName: 
+    pivot: {x: 0.11111111, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 35
+      width: 18
+      height: 5
+    spriteID: aa3d1c7e56ee44a40a7cbbeedb7d451a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 35}
+  - name: vagabond-death_Frame_8
+    originalName: 
+    pivot: {x: 0.05882353, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 17
+      height: 64
+    spriteID: d9eaad94fc2f2314a8a2df2782976f2b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: vagabond-death_Frame_9
+    originalName: 
+    pivot: {x: 0.05882353, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 4
+      width: 17
+      height: 64
+    spriteID: eef973d6c22640b42ae16bed10561057
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 4}
+  - name: vagabond-death_Frame_10
+    originalName: 
+    pivot: {x: 0.05882353, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 4
+      width: 17
+      height: 55
+    spriteID: 23bde63a1e0666940bf34a153304c7a3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 4}
+  - name: vagabond-death_Frame_11
+    originalName: 
+    pivot: {x: 0.05882353, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 76
+      width: 17
+      height: 42
+    spriteID: fe72e84dde21a9e459246c6c45abb857
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 76}
+  - name: vagabond-death_Frame_12
+    originalName: 
+    pivot: {x: 0.05882353, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 29
+      y: 76
+      width: 17
+      height: 30
+    spriteID: 54cb789a8a6e45c40bd890c6d4cf9ca7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 29, y: 76}
+  - name: vagabond-death_Frame_13
+    originalName: 
+    pivot: {x: 0.0625, y: 0}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 67
+      width: 16
+      height: 18
+    spriteID: 53b602605345ef544a0b7d262bfe55ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 67}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 1013711319
+    name: vagabond-death
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: vagabond-death_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 26
+        y: 0
+        width: 10
+        height: 18
+      spriteId: 3d1745f0312757942bd681205264ade8
+    - name: vagabond-death_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 26
+        y: 0
+        width: 11
+        height: 15
+      spriteId: bafb10bd4ece2f641818324a90cb19a2
+    - name: vagabond-death_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 26
+        y: 0
+        width: 11
+        height: 15
+      spriteId: 51e6241fa01f2f34e9a34a0b8190fd2f
+    - name: vagabond-death_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 27
+        y: 0
+        width: 11
+        height: 13
+      spriteId: 4ef3ae95f3e34c44eac9d16de7387e35
+    - name: vagabond-death_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 27
+        y: 0
+        width: 11
+        height: 10
+      spriteId: b53e5ffc39c8b864bba8e9b4840b7b0d
+    - name: vagabond-death_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 28
+        y: 0
+        width: 13
+        height: 8
+      spriteId: 68b07f467f718e046b141bd951662caa
+    - name: vagabond-death_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 30
+        y: 0
+        width: 18
+        height: 7
+      spriteId: e3b86eab827f266469e30ad123746765
+    - name: vagabond-death_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 30
+        y: 0
+        width: 18
+        height: 5
+      spriteId: aa3d1c7e56ee44a40a7cbbeedb7d451a
+    - name: vagabond-death_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 31
+        y: 0
+        width: 17
+        height: 64
+      spriteId: d9eaad94fc2f2314a8a2df2782976f2b
+    - name: vagabond-death_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 31
+        y: 0
+        width: 17
+        height: 64
+      spriteId: eef973d6c22640b42ae16bed10561057
+    - name: vagabond-death_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 31
+        y: 0
+        width: 17
+        height: 55
+      spriteId: 23bde63a1e0666940bf34a153304c7a3
+    - name: vagabond-death_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 31
+        y: 0
+        width: 17
+        height: 42
+      spriteId: fe72e84dde21a9e459246c6c45abb857
+    - name: vagabond-death_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 31
+        y: 0
+        width: 17
+        height: 30
+      spriteId: 54cb789a8a6e45c40bd890c6d4cf9ca7
+    - name: vagabond-death_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 31
+        y: 0
+        width: 16
+        height: 18
+      spriteId: 53b602605345ef544a0b7d262bfe55ea
+    linkedCells: []
+    parentIndex: -1
+  platformSettings: []
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 64, y: 64}
